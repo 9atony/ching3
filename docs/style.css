@@ -1,8 +1,7 @@
 /* สไตล์พื้นฐานสำหรับหน้าจอ */
 
 body {
-
-    background: url('../docs/Untitled-1\ copy.png') no-repeat;
+    background: url('../img/Untitled-1\ copy\ 1.svg') no-repeat;
     background-position: center -20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* เปลี่ยนฟอนต์ใหม่ */
     text-align: center;
@@ -14,8 +13,9 @@ body {
     height: 100vh; /* เต็มความสูงของหน้าจอ */
 }
 
-h1 {
-    color: white;
+h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(253, 207, 138, 0.5); 
 
 }
 
@@ -36,6 +36,7 @@ h1 {
 #ching-button {
     background-color: #e7a86d;
     box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+
 }
 
 #ching-button:hover {
