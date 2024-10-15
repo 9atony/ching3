@@ -1,5 +1,9 @@
 /* สไตล์พื้นฐานสำหรับหน้าจอ */
+
 body {
+
+    background: url('../img/Untitled-1\ copy.png') no-repeat;
+    background-position: center -20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* เปลี่ยนฟอนต์ใหม่ */
     text-align: center;
     background-color: #FFFAF0; /* เปลี่ยนสีพื้นหลัง */
@@ -8,6 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* เต็มความสูงของหน้าจอ */
+}
+
+h1 {
+    color: white;
+
 }
 
 /* สไตล์ของปุ่ม */
@@ -25,22 +34,24 @@ body {
 
 /* ปุ่มสีเขียว */
 #ching-button {
-    background-color: #4CAF50;
+    background-color: #e7a86d;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 #ching-button:hover {
-    background-color: #45a049; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* เงาเข้มขึ้นเมื่อเมาส์ชี้ */
+    background-color: #f0d2a7; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3); /* เงาเข้มขึ้นเมื่อเมาส์ชี้ */
 }
 
 /* ปุ่มสีน้ำเงิน */
 #chap-button {
-    background-color: #2196F3;
+    background-color: #f38f4c;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 #chap-button:hover {
-    background-color: #1e88e5; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* เงาเข้มขึ้นเมื่อเมาส์ชี้ */
+    background-color: #f7ca96; /* เปลี่ยนสีเมื่อเมาส์ชี้ */
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3); /* เงาเข้มขึ้นเมื่อเมาส์ชี้ */
 }
 
 /* การเปลี่ยนสีปุ่มเมื่อเมาส์ชี้ */
